@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOLLYS</title>
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/main_slide.js"></script>
+    <script src="js/cate_con.js"></script>
+    <script src="js/top_header.js"></script>
+    <script src="js/mo_new.js"></script>
+    <!-- <script src="js/cate_slide.js"></script> -->
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="in_header flex">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          </div>
+          <ul class="menu_wrap flex">
+            <li>
+              <a href="https://www.hollys.co.kr/hollysIs/hollys/aboutHollys.do"
+                >HOLLYS</a
+              >
+              <ul class="sub">
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/hollysIs/hollys/aboutHollys.do"
+                    >HOLLYS is</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/hollysIs/location.do"
+                    >할리스 위치 및 연락처</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/hollysIs/recruit/person.do"
+                    >채용 안내</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/franchise/info/franchiseInfo.do"
+                    >가맹문의 및 절차</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/hollysIs/b2b/Info.do"
+                    >B2B 사업 소개</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/store/korea/korStore2.do"
+                    >매장검색</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.hollys.co.kr/menu/espresso.do">MENU</a>
+              <ul class="sub">
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/espresso.do">COFFEE</a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/signature.do"
+                    >라떼 · 초콜릿 · 티</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/hollyccino.do"
+                    >할리치노 · 빙수</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/juice.do"
+                    >스무디 · 주스
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/tea.do">스파클링</a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/bakery.do">푸드</a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/md.do">MD상품</a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/menu/bean.do">MD식품</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.hollys.co.kr/news/notice/list.do">EVENT</a>
+              <ul class="sub">
+                <li>
+                  <a href="https://www.hollys.co.kr/news/notice/list.do"
+                    >News</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/news/event/list.do"
+                    >Event</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.hollys.co.kr/membership/benefit.do"
+                >MEMBERSHIP</a
+              >
+              <ul class="sub">
+                <li>
+                  <a href="https://www.hollys.co.kr/membership/crownOrder.do"
+                    >스마트오더</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/membership/benefit.do"
+                    >멤버십혜택</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.hollys.co.kr/mall/product.do">HOLLYS Mall</a>
+              <ul class="sub">
+                <li>
+                  <a href="https://www.hollys.co.kr/mall/product.do"
+                    >할리스콘</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/giftCard/cardGuide.do"
+                    >할리스카드</a
+                  >
+                </li>
+                <li>
+                  <a href="https://smartstore.naver.com/hollysstore">E-Store</a>
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/member/login.do"
+                    >E-구매내역</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="side_wrap flex">
+            <div class="login">
+              <a href="https://www.hollys.co.kr/member/login.do">로그인</a>
+            </div>
+            <div class="join">
+              <a href="https://www.hollys.co.kr/member/join/joinMemberInfo.do"
+                >회원가입</a
+              >
+            </div>
+          </div>
+          <div class="mo_wrap">
+            <input type="checkbox" id="mo_input" />
+            <label for="mo_input" id="mo_label">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </label>
+            <ul class="mo_menu">
+              <li>
+                <a
+                  href="https://www.hollys.co.kr/hollysIs/hollys/aboutHollys.do"
+                  >HOLLYS</a
+                >
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">MENU</a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/news/notice/list.do">EVENT</a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/membership/benefit.do"
+                  >MEMBERSHIP</a
+                >
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/mall/product.do"
+                  >HOLLYS Mall</a
+                >
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/member/login.do">로그인</a
+                ><a
+                  href="https://www.hollys.co.kr/member/join/joinMemberInfo.do"
+                  >회원가입</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="sec_1">
+        <div class="main_wrap">
+          <ul class="main_img_wrap flex">
+            <li>
+              <a href="#"><img src="img/main.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/main02.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/main03.jpg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="mo_main_wrap">
+          <ul class="mo_main_img_wrap flex">
+            <li>
+              <a href="#"><img src="img/mo_main (2).jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/mo_main (1).jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/mo_main (4).jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/mo_main (3).jpg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sec_2">
+        <div class="container">
+          <div class="title">
+            Best Menu
+            <div class="title_img">
+              <img src="img/title_img.png" alt="" />
+            </div>
+          </div>
+
+          <ul class="cate flex">
+            <li class="active">커피</li>
+            <li>티</li>
+            <li>할리치노</li>
+            <li>주스</li>
+            <li>사이드</li>
+            <li>MD</li>
+          </ul>
+          <div class="cate_wrap">
+            <ul class="cate_coffee cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee01.png" alt="" />
+                  <p>홀리데이 돌체 라떼</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee02.png" alt="" />
+                  <p>콜드브루 딜라이트</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee03.png" alt="" />
+                  <p>바닐라 딜라이트</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee04.png" alt="" />
+                  <p>아포가토</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee06.png" alt="" />
+                  <p>블랙아리아 아메리카노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee07.png" alt="" />
+                  <p>블랙아리아 딥라떼</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/espresso.do">
+                  <img src="img/coffee05.png" alt="" />
+                  <p>카페모카</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="cate_tea cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea01.png" alt="" />
+                  <p>윈터 제주 레몬 애플 티</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea02.png" alt="" />
+                  <p>로얄 밀크 버블티</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea03.png" alt="" />
+                  <p>흑당 버블티</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea04.png" alt="" />
+                  <p>우리 고구마 라떼</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea05.png" alt="" />
+                  <p>핑크파인 캐모마일티</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/signature.do">
+                  <img src="img/tea06.png" alt="" />
+                  <p>핫/아이스초코</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="cate_holly cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly01.png" alt="" />
+                  <p>제주 말차 할리치노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly02.png" alt="" />
+                  <p>민트 초코칩 할리치노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly03.png" alt="" />
+                  <p>딸기 치즈케익 할리치노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly04.png" alt="" />
+                  <p>다크초코칩 할리치노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly05.png" alt="" />
+                  <p>콜드브루 할리치노</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/hollyccino.do">
+                  <img src="img/holly06.png" alt="" />
+                  <p>플레인 요거트 할리치노</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="cate_juice cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/juice.do">
+                  <img src="img/juice01.png" alt="" />
+                  <p>사과 비트 착즙 주스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/juice.do">
+                  <img src="img/juice02.png" alt="" />
+                  <p>청포도 케일 착즙주스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/juice.do">
+                  <img src="img/juice03.png" alt="" />
+                  <p>오렌지 자몽 싱싱 주스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/tea.do">
+                  <img src="img/juice04.png" alt="" />
+                  <p>유자몽 스파클링</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/tea.do">
+                  <img src="img/juice05.png" alt="" />
+                  <p>복숭아 자두 스파클링</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/juice.do">
+                  <img src="img/juice06.png" alt="" />
+                  <p>애플망고 스무디</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/juice.do">
+                  <img src="img/juice07.png" alt="" />
+                  <p>딸기 스무디</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="cate_side cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side01.png" alt="" />
+                  <p>AOP 버터 스루아상</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side02.png" alt="" />
+                  <p>클래식 버터 스콘&딸기잼</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side03.png" alt="" />
+                  <p>초코칩 콕콕 스콘</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side04.png" alt="" />
+                  <p>딸기 크럼블 쏘스윗 박스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side05.png" alt="" />
+                  <p>바닐라 딜라이트 케이크</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side06.png" alt="" />
+                  <p>쿠키앤크림 쏘스윗박스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bakery.do">
+                  <img src="img/side07.png" alt="" />
+                  <p>티라미수 쏘스윗박스</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="cate_md cate_con">
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bean.do">
+                  <img src="img/md01.png" alt="" />
+                  <p>시그니처 아메리카노 미니 10T</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bean.do">
+                  <img src="img/md02.png" alt="" />
+                  <p>바닐라 딜라이트 10T</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/md.do">
+                  <img src="img/md03.png" alt="" />
+                  <p>글라스 티 텀블러(베이지)</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/md.do">
+                  <img src="img/md04.png" alt="" />
+                  <p>시티모던 텀블러(실버)</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bean.do">
+                  <img src="img/md05.png" alt="" />
+                  <p>돌체라떼 10T</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/menu/bean.do">
+                  <img src="img/md06.png" alt="" />
+                  <p>디카페인 바닐라 딜라이트 10T</p>
+                </a>
+              </li>
+            </ul>
+            <div class="slide_btn flex">
+              <div class="left"><i class="fa-solid fa-angle-left"></i></div>
+              <div class="right"><i class="fa-solid fa-angle-right"></i></div>
+            </div>
+          </div>
+
+          <div class="mo_cate">
+            <a href="#"><img src="img/mo_cate.jpg" alt="" /></a>
+          </div>
+          <div class="mo_round">
+            <a href="https://www.hollys.co.kr/menu/espresso.do"
+              >메뉴 보러가기</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="sec_3">
+        <div class="container">
+          <div class="mall_back">
+            <div class="mall_top">
+              <img src="img/mall_back.png" alt="" />
+            </div>
+            <div class="mall_bottom"></div>
+          </div>
+          <div class="mall_con">
+            <div class="title">HOLLYS Mall</div>
+            <div class="mall_sub">
+              언제 어디서나 당신이 좋은 커피를 만날 수 있도록
+            </div>
+            <div class="mall_mask">
+              <ul class="mall_img_wrap flex">
+                <li>
+                  <a
+                    href="https://smartstore.naver.com/hollysstore/products/7048940962"
+                  >
+                    <img src="img/mall_img01.png" alt="" />
+                    <p>시그니처 아메리카노 마일드</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://smartstore.naver.com/hollysstore/products/7048940962"
+                  >
+                    <img src="img/mall_img02.png" alt="" />
+                    <p>바닐라 딜라이트</p>
+                  </a>
+                </li>
+                <!-- <li>
+                  <a href="#">
+                    <img src="img/mall_img03.png" alt="" />
+                    <p>시그니처 드립백</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/mall_img04.png" alt="" />
+                    <p>데이드림 드립백</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/mall_img05.png" alt="" />
+                    <p>이클립스 드립백</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/mall_img06.png" alt="" />
+                    <p>(파우치) 바닐라 딜라이트</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/mall_img07.png" alt="" />
+                    <p>(파우치) 복숭아 얼그레이</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/mall_img08.png" alt="" />
+                    <p>(파우치) 아메리카노</p>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+            <div class="mo_round">
+              <a href="https://smartstore.naver.com/hollysstore"
+                >쇼핑 하러가기</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec_4">
+        <div class="container">
+          <div class="title">What's New</div>
+          <div class="new_mask">
+            <ul class="news_img_wrap flex">
+              <li>
+                <a href="https://www.hollys.co.kr/news/event/view.do?idx=397">
+                  <img src="img/new01.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/news/event/view.do?idx=393">
+                  <img src="img/new02.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.hollys.co.kr/news/event/view.do?idx=395">
+                  <img src="img/new03.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mo_new_wrap">
+          <ul class="mo_new_img_wrap flex">
+            <li>
+              <a
+                href="https://smartstore.naver.com/hollysstore/products/9495666962"
+                ><img src="img/mo_new01.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://smartstore.naver.com/hollysstore/products/9495660818"
+                ><img src="img/mo_new02.jpg" alt=""
+              /></a>
+            </li>
+          </ul>
+          <div class="mo_new_btn">
+            <div class="new_left"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="new_right">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="mo_round">
+          <a
+            href="https://smartstore.naver.com/hollysstore/category/1560426a318048008282d755059500e4"
+            >더 보러가기</a
+          >
+        </div>
+      </section>
+
+      <section class="sec_5">
+        <div class="container flex">
+          <div class="mem_wrap last_con">
+            <p class="m_sub">HOLLYS MEMBERSHIP</p>
+            <h4 class="m_title">할리스 멤버십</h4>
+            <div class="round">
+              <a href="https://www.hollys.co.kr/membership/benefit.do">
+                <p>멤버십 가입하기</p>
+              </a>
+            </div>
+          </div>
+          <div class="store_wrap last_con">
+            <p class="m_sub">STORE INFORMATION</p>
+            <h4 class="m_title">할리스 매장 찾기</h4>
+            <div class="round">
+              <a href="https://www.hollys.co.kr/store/korea/korStore2.do"
+                ><p>매장정보 보러가기</p></a
+              >
+            </div>
+          </div>
+          <ul class="mo_mem_wrap">
+            <li>
+              <a href="https://www.hollys.co.kr/membership/benefit.do">
+                <img src="img/mo_mem.png" alt="" />
+                <h5>Membership</h5>
+                <p>
+                  할리스 멤버십 ‘CROWN’으로<br />
+                  다양한 혜택을 즐겨보세요
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.hollys.co.kr/store/korea/korStore2.do">
+                <img src="img/mo_store.png" alt="" />
+                <h5>Store Information</h5>
+                <p>
+                  전국에 있는 할리스 매장을
+                  <br />찾아드립니다
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="f_center">
+            <div class="f_center_top flex">
+              <div class="f_logo">
+                <a href="index.html"><img src="img/f_logo.png" alt="" /></a>
+              </div>
+              <ul class="sns_wrap flex">
+                <li>
+                  <a href="https://www.facebook.com/EnjoyHollys"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hollyscoffee.official/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="f_center_bottom">
+              <ul class="f_sub_menu flex">
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/customer/policy/customerInfoPolicy.do"
+                    >개인정보처리방침</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/customer/policy/serviceTerms.do"
+                    >서비스이용약관</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/customer/policy/membershipTerms.do"
+                    >멤버십이용약관</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/customer/policy/hollysCardTerms.do"
+                    >할리스카드이용약관</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/member/login.do"
+                    >고객문의</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hollys.co.kr/customer/survey/surveyInfo.do"
+                    >고객설문</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/footer/sitemap.do"
+                    >사이트맵</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.hollys.co.kr/hollysIs/hollys/bi.do"
+                    >BI 소개</a
+                  >
+                </li>
+              </ul>
+              <p>
+                법인명: (주) 케이지할리스에프앤비 대표자: 이종현 사업자등록번호
+                211-87-61044 통신판매업: 제2019-서울종로-0193호
+              </p>
+              <p>
+                주소 : 서울특별시 중구 통일로 92, 9층(순화동, 케이지타워)
+                대표전화 : 02-2188-7100 (가맹문의 : 02-6350-7229)
+              </p>
+              <p>COPYRIGHT&copy;KG HOLLYS F&B. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="top_wrap">
+        <div class="store">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p>매장 찾기</p>
+        </div>
+        <div class="franchise">
+          <i class="fa-solid fa-headset"></i>
+          <p>가맹 문의</p>
+        </div>
+        <div class="top_btn"><i class="fa-solid fa-chevron-up"></i></div>
+      </div>
+    </div>
+    <!-- script -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <!-- <script src="js/cate.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
